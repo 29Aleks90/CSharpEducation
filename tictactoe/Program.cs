@@ -75,7 +75,7 @@ class TicTacToe
             (board[2] == board[4] && board[4] == board[6]);
     }
 
-    // Проверяем на ничью
+    // Проверяем ничью
     static bool CheckForDraw()
     {
         // Проверяем, остались ли свободные ячейки
